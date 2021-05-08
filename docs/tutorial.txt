@@ -1,3 +1,15 @@
+// Bước tạo
+1> npm i moleculer moleculer-cli
+2> npx moleculer-cli -c moleculer init project my-app
+3> cd my-app
+4> npm i cors <Và các thư viện bạn cần>
+5> New Terminal > docker-compose up > Tạo database cần
+6> npm i sequelize sequelize-auto
+7> npx sequelize-auto -h localhost -d RENTALAPARTMENT -u sa -x !Passw0rd -p 1400 -e mssql -o "./src/models"
+8> Copy file DBContext bỏ vào mục src
+9> Xong môi trường
+
+// Bước chạy
 Các bước đồng bộ github trên github desktop:
 0> Bật Github desktop
 1> Chuyển branch thành branch phần mình
